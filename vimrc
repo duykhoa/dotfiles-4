@@ -64,8 +64,11 @@ set shiftwidth=2
 set softtabstop=2
 set tabstop=2
 set expandtab
+set colorcolumn=81
+set lazyredraw
+set redrawtime=5000
+set updatetime=5000
 
-filetype plugin on
 filetype indent on
 
 " Display tabs and trailing spaces visually
