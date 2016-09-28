@@ -114,3 +114,6 @@ set smartcase       " ...unless we type a capital
 
 " ================ Custom Settings ========================
 so ~/.yadr/vim/settings.vim
+
+" == Custom key to change old hash syntax
+nnoremap <leader>ch :%s/\(\w\+\)\s*=>\s*/\1: /g<cr>
